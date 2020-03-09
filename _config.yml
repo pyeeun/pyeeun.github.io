@@ -10,12 +10,13 @@ description: >
 email: charm5231@naver.com
 author: yepark
 avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
-profile: One sentence introducing yourself.
+profile: 스물 일곱 뚜벅이 개발자의 메모장
 #twitter_username: twitter_username
 #github_username:  github_username
 profile_links:
-  Email: "mailto:charm5231@naver.com"
   GitHub: "https://github.com/pyeeun"
+  Instagram: "https://www.instagram.com/94.yeeun"
+  Facebook: "https://www.facebook.com/charm5231"
   # You can add more profile links above, or edit _includes/sidebar.html 
 
 # Comment Service (Disqus or 多说)
@@ -27,9 +28,9 @@ excerpt_separator: <!--more-->
 
 header:
   links:             # Links on the header. Link to in-site page with a slash as prefix
+    Home: /
     About: /about/
     Category: /category/
-    Donate: #
 
 permalink: /archivers/:title
 plugins:
