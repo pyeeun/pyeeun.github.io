@@ -3,7 +3,7 @@ layout: post
 title:  "[유지보수 가능한 코드 작성하기]<br/> 전역 변수의 최소화"
 date:   2020-03-24 11:50
 categories: javascript
-permalink: /archivers/20200324-전역변수의최소화
+permalink: /archivers/20200324-
 --- 
 
 ## 개요
