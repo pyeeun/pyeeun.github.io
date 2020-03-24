@@ -63,6 +63,12 @@
 		        margin: 0 -10px;
             }
         }
+
+        code {
+            @media only screen and (max-width : 500px) {
+                font-size: 12px;
+            }
+        }
         
         .middle-image {
             display: block;
