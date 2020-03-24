@@ -34,8 +34,8 @@ body {
 		line-height: $base-font-size * 2;
 	}
 	.site-nav {
-		text-align:right;
-		
+		text-align: right;
+		float: right;
 		a {
 			text-decoration: none;
 			color: $header-link;
@@ -45,6 +45,10 @@ body {
 			&:hover, &:focus {
 				background: $header-bg-hover;
 			}
+
+			@media only screen and (max-width : 500px) {
+				padding: 10px 10px;
+            }
 		}
 	}
 }

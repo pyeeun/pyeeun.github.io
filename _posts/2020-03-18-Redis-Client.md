@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Redis Client [Jedis vs Lettuce]"
+title:  "[Web] Redis Client"
 date:   2020-03-18 08:00
 categories: redis
 permalink: /archivers/20200318-Redis-Client
