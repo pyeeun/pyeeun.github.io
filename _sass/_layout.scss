@@ -46,8 +46,32 @@ body {
 				background: $header-bg-hover;
 			}
 
-			@media only screen and (max-width : 500px) {
-				padding: 10px 10px;
+			/* Smartphones (portrait and landscape) */
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+                padding: 10px 5px;
+            }
+            /* Smartphones (landscape) */
+            @media only screen and (min-width : 321px) {
+                padding: 10px 5px;
+            }
+            /* Smartphones (landscape) */
+            @media only screen and (max-width : 320px) {
+                padding: 10px 5px;
+            }
+            /* iPad (portrait and landscape) */
+            @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+                padding: 10px 10px;
+            }
+            /* Smartphones (landscape) */
+            @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+                padding: 10px 10px;
+            }
+            @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+                padding: 10px 10px;
+            }
+            /* Desktop (landscape) */
+            @media only screen and (min-width : 1224px) {
+                padding: 10px 10px;
             }
 		}
 	}
@@ -246,6 +270,7 @@ $hide-sidebar-screen-width: 1120px;
 		}
 		.site-title {
 			float: left;
+			padding-left: 7px;
 		}
 	}
 	.col-main {
