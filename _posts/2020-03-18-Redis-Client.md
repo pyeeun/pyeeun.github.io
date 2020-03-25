@@ -4,6 +4,7 @@ title:  "[Web] Redis Client"
 date:   2020-03-18 08:00
 categories: redis
 permalink: /archivers/20200318-Redis-Client
+tag: redis web cache session redis-client jedis lettuce
 ---
 
 ## 개요 

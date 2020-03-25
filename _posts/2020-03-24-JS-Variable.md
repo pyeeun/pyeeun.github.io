@@ -4,6 +4,7 @@ title:  "[JavaScript] 전역 변수의 최소화"
 date:   2020-03-24 11:50
 categories: javascript
 permalink: /archivers/20200324-JS-Variable
+tag: javascript hoisting variable design-pattern html
 --- 
 
 ## 개요
