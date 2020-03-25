@@ -48,30 +48,37 @@ body {
 
 			/* Smartphones (portrait and landscape) */
             @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                padding: 10px 5px;
+				font-size: 13px;
+				padding: 10px 5px;
             }
             /* Smartphones (landscape) */
             @media only screen and (min-width : 321px) {
+				font-size: 13px;
                 padding: 10px 5px;
             }
             /* Smartphones (landscape) */
             @media only screen and (max-width : 320px) {
+				font-size: 13px;
                 padding: 10px 5px;
             }
             /* iPad (portrait and landscape) */
             @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-                padding: 10px 10px;
+				font-size: 14px;
+				padding: 10px 10px;
             }
             /* Smartphones (landscape) */
             @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-                padding: 10px 10px;
+				font-size: 14px;
+				padding: 10px 10px;
             }
             @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-                padding: 10px 10px;
+				font-size: 14px;
+				padding: 10px 10px;
             }
             /* Desktop (landscape) */
-            @media only screen and (min-width : 1224px) {
-                padding: 10px 10px;
+            @media only screen and (min-width : 1120px) {
+				font-size: 15px;
+				padding: 10px 10px;
             }
 		}
 	}
@@ -168,7 +175,7 @@ $hide-sidebar-screen-width: 1120px;
 }
 .col-box{
 	color: #666;
-	font-size: $small-font-size;
+	font-size: 13px;
 	padding-bottom: 20px;
 	
 	p {
@@ -178,7 +185,9 @@ $hide-sidebar-screen-width: 1120px;
         padding-left: 20px;
         margin: 0;
     }
-	
+	li {
+		padding-bottom: 5px;
+	}
 	&:not(:first-child) {
     	border-top: 1px solid #ccc;
     	padding-top: 20px;

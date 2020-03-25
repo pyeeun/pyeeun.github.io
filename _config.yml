@@ -58,3 +58,6 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
   math_engine: mathjax
+
+# Google Analytics
+g_analytics: UA-161794971-1
