@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[JavaScript] 전역 변수의 최소화"
+title:  "[JS] 전역 변수의 최소화"
 date:   2020-03-24 11:50
 categories: javascript
 permalink: /archivers/20200324-JS-Variable
@@ -52,38 +52,4 @@ var 키워드를 사용하여 지역변수 result를 선언하였다.
 var 키워드에 대해 공부하다 보니  
 호이스팅이라는 개념에 대해 접하게 되었다.  
 
-## 호이스팅(hoisting)
-**호이스팅이란?**  
-**함수 안에 있는 선언들을 모두 끌어올려서**  
-해당 함수 유효 범위의 **최상단에 선언하는 것**이다.
-
-
-이해를 돕기 위해 바로 예제를 살펴보자.
-
-```javascript
-fruit = "banana";
-function foo() {
-    console.log(fruit); // undefined
-    var fruit = "apple";
-    console.log(fruit); // apple
-}
-```
-
-위 코드를 살펴보면 fruit 변수를 두 군데서  
-각각 전역변수, 지역변수로 선언하고 있다.
-
-함수 밖에서 fruit 변수를 전역으로 선언하였기에,  
-함수 안에서 fruit 값이 "banana"가 찍힐 것 같지만...  
-
-함수 안에서 **같은 이름으로 정의된 변수가 호이스팅되어**  
-실제로는 "undefined" 값이 찍히는 것을 볼 수 있다.
-
-## 마무리
-무심코 코드를 작성하다 보면 이런 실수를 범할 때가 많다.  
-코드 작성 시, 호이스팅이 발생하지 않도록
-주의를 기울이자!
-
-그리고...
-
-다음 포스팅은 ES6에 도입된 변수 선언 방식  
-**let**과 **const**에 대해 공부해보자!
+다음에는 호이스팅에 관해 포스팅을 해보자!
